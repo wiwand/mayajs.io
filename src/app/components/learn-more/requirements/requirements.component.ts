@@ -6,6 +6,11 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./requirements.component.scss"],
 })
 export class RequirementsComponent implements OnInit {
+
+  svg = {
+    requirements: "../assets/svg/Requirements.svg"
+  };
+
   constructor() {}
 
   ngOnInit(): void {}
