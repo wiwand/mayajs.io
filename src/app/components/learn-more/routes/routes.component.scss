@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+      font-family: rubik;
+      margin: 0 30px;
+}
+
+main {
+      display:flex;
+      flex-direction: column;
+}
+
+#header {
+      background-color: #9c1804;
+      color: white;
+      padding: 1rem;
+      font-size: 3.0rem;
+      text-align: center;
+}
+
+#section-a {
+      background-color:rgb(52, 52, 52);
+}
+
+#code-block {
+      white-space: pre-line;
+      font: inherit;
+      color: gray;
+      padding: 1.4rem;
+      font-size: 1.2rem;
+}
+
+#red {
+      color:rgb(165, 38, 38);
+}
+
+#light-blue {
+      color:rgb(27, 183, 235);
+}
+
+#section-b{
+      color: gray;
+      background-color: white;
+      border-left-color: rgb(117, 116, 116);
+      border-left-width: 20px;
+      border-left-style: solid;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin: 4.0rem 10px 0 0;
+      padding: 10px;
+}
+
+#section-b p {
+      margin: 0;
+      padding: 0;
+      font-size: 1rem;
+}
+
+
+
+@media (min-width: 768px) {   
+      
+      body {
+            margin: 0 30px;
+      }
+
+      #header {
+            text-align:left;
+            padding-left: 3%;
+      }
+
+      main { 
+            display:flex;
+            flex-direction: column;
+            max-height: 100vh;
+      }
+
+      #header-content {
+            padding-left: 5%;
+      }
+
+      #section-a {
+            margin:0;
+      }
+
+      #code-block {
+            padding: 2.5rem;
+      }
+
+      #section-b {
+            padding: 1.8rem;
+      }
+
+      #section-b p {
+            padding: 1px;
+      }
+}

@@ -1,1 +1,27 @@
-<p>routes works!</p>
+<body>
+      <header id="header">
+            Routes
+      </header>
+      <main>
+            <section id="section-a">
+                  <pre id="code-block">
+                       <span id="red">import</span> &#123; SampleController &#125; from "./controllers/sample/sample.controller";
+
+                       <span id="red">export const</span> <span id="light-blue">routes</span> = [
+                       &#123;
+                              &nbsp;&nbsp;controllers:&nbsp;[SampleController],
+                              &nbsp;&nbsp;middlewares:&nbsp;[],
+                              &nbsp;&nbsp;path:&nbsp;"",
+                           &nbsp;&#125;,
+                         ];
+                  </pre>
+            </section>
+            <section id="section-b">
+                        <p>This module handles all the routes for our server.</p>
+                        <p>You can define a path for your controllers.</p>
+                        <p>You can also add middlewares for your route to use.</p>
+                        <p>These middlewares will be executed first before your first controller.
+                        </p>
+            </section>
+      </main>
+</body>
